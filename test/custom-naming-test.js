@@ -29,4 +29,19 @@ describe('Custom delimeters for BEM naming', function() {
       }
     });
   });
+
+  it('should support custom naming for js data attribute', function() {
+    test(function() {
+    }, [
+      { block: 'link', js: true },
+      { block: 'link', js: true }
+    ],
+    '<div class="link i-bem" onclick=\'{"link":{}}\'></div>' +
+    '<div class="link i-bem" onclick=\'{"link":{}}\'></div>',
+    {
+      naming: {
+        jsAttr: 'onclick'
+      }
+    });
+  });
 });
