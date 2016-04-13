@@ -4,6 +4,8 @@ Declarative template engine for the browser and server.
 
 [![NPM version](http://img.shields.io/npm/v/bem-xjst.svg?style=flat)](http://www.npmjs.org/package/bem-xjst)
 [![Build Status](http://img.shields.io/travis/bem/bem-xjst/master.svg)](https://travis-ci.org/bem/bem-xjst)
+[![Coverage Status](https://coveralls.io/repos/github/bem/bem-xjst/badge.svg?branch=master)](https://coveralls.io/github/bem/bem-xjst?branch=master)
+[![Dependency Status](https://david-dm.org/bem/bem-xjst.svg)](https://david-dm.org/bem/bem-xjst)
 
 [Online demo](https://bem.github.io/bem-xjst/). Twitter account: [@bemxjst](https://twitter.com/bemxjst)
 
